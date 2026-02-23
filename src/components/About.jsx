@@ -43,15 +43,14 @@ function About() {
         </h2>
 
         <p className="mt-3 text-slate-400 text-sm md:text-base leading-relaxed">
-          HackHers is a passionate team dedicated to building intelligent, human-centric AI solutions. In this project, we are developing a voice-enabled personal assistant that transforms natural speech into meaningful actions using advanced speech-to-text, intent detection, and large language models.
+          HackHers is building a voice-enabled personal assistant that transforms natural speech into meaningful actions. Powered by speech recognition, intent detection, and large language models, it helps users interact with technology in a simple, intuitive, and human-centric way.
         </p>
 
         <ul className="mt-5 space-y-2.5">
           {[
-            'Limited access to hands-on technical experience',
-            'Fewer role models and mentors in the industry',
-            'Unconscious bias in hiring and promotion',
-            'Lack of safe spaces to experiment and fail',
+            'Turns voice commands into intelligent, real-time responses',
+            'Assists with tasks like answering questions and drafting emails',
+            'Creates a more accessible and user-friendly AI experience'
           ].map((item, i) => (
             <li key={i} className="flex items-start gap-2.5 text-slate-300 text-xs md:text-sm">
               <span className="flex-shrink-0 w-4 h-4 rounded-full bg-fuchsia-500/20 flex items-center justify-center text-fuchsia-400 text-[9px] font-bold">
@@ -77,6 +76,7 @@ function About() {
         </div>
         <div className="absolute -inset-4 rounded-3xl border border-fuchsia-500/20 -z-10 blur-xl opacity-50" />
       </div> */}
+
       <div className="relative">
   <div className="aspect-square rounded-2xl bg-gradient-to-br from-fuchsia-500/20 to-violet-500/20 border border-white/10 p-6 flex items-center justify-center overflow-hidden">
     
@@ -118,40 +118,40 @@ function About() {
               Our Solution
             </h2>
             <p className="mt-4 text-slate-400 max-w-2xl mx-auto">
-              HackHers creates an inclusive ecosystem where women can thrive in tech.
+              HackHers is building a voice-enabled AI personal assistant that understands natural speech and turns it into meaningful actions — instantly and intelligently.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: 'Hands-On Hackathons',
-                desc: '48-hour events where participants build real projects, from idea to demo, with mentorship and workshops.',
-                icon: '⚡',
+                title: 'Smart Conversations',
+                desc: 'Get accurate answers to general questions using advanced large language models.',
+                icon: '⚙️',
               },
               {
-                title: 'Mentorship Network',
-                desc: 'Connect with industry professionals who provide guidance, feedback, and career advice.',
-                icon: '🤝',
+                title: 'Email Automation',
+                desc: 'Draft and send emails seamlessly through voice commands.',
+                icon: '✉️',
               },
               {
-                title: 'Safe Learning Space',
-                desc: 'A judgment-free environment where you can experiment, ask questions, and grow confidently.',
-                icon: '🛡️',
+                title: 'Intelligent Intent Detection',
+                desc: 'Understands user intent to trigger the right action every time.',
+                icon: '🎯',
               },
               {
-                title: 'Skill Workshops',
-                desc: 'Technical workshops on web dev, AI, design, and more—tailored for all skill levels.',
-                icon: '📚',
+                title: 'Voice-First Experience',
+                desc: 'Speak naturally — no rigid commands or complex inputs required.',
+                icon: '🔊',
               },
               {
-                title: 'Community Building',
-                desc: 'Join a network of ambitious women supporting each other long after the hackathon ends.',
-                icon: '🌟',
+                title: 'Secure & Scalable',
+                desc: 'Built with modern architecture designed for reliability and growth.',
+                icon: '🔐',
               },
               {
-                title: 'Career Opportunities',
-                desc: 'Partnerships with companies actively looking to hire diverse tech talent.',
-                icon: '🚀',
+                title: 'Real-World Productivity',
+                desc: 'From quick queries to task automation, it simplifies daily workflows.',
+                icon: '📈',
               },
             ].map((card, i) => (
               <div
@@ -167,114 +167,67 @@ function About() {
         </div>
       </section>
 
-      {/* Mission & Vision */}
-      <section className="py-20 md:py-28">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="p-8 md:p-10 rounded-3xl bg-gradient-to-br from-fuchsia-500/10 to-transparent border border-fuchsia-500/20">
-              <h3 className="text-2xl font-bold text-white">Our Mission</h3>
-              <p className="mt-4 text-slate-300 leading-relaxed">
-                To empower women to pursue careers in technology by providing access to
-                hands-on learning, mentorship, and a supportive community that celebrates
-                their achievements and potential.
-              </p>
-            </div>
-            <div className="p-8 md:p-10 rounded-3xl bg-gradient-to-br from-violet-500/10 to-transparent border border-violet-500/20">
-              <h3 className="text-2xl font-bold text-white">Our Vision</h3>
-              <p className="mt-4 text-slate-300 leading-relaxed">
-                A tech industry where women are equally represented at every level—from
-                entry-level roles to C-suite—and where diverse perspectives drive
-                innovation that benefits everyone.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Impact Stats */}
-      <section className="py-20 md:py-28 bg-white/[0.02]">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <span className="text-cyan-400 font-semibold text-sm uppercase tracking-wider">
-              By The Numbers
-            </span>
-            <h2 className="mt-3 text-3xl md:text-4xl font-bold text-white">
-              Our Impact
-            </h2>
-          </div>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              { value: '500+', label: 'Participants' },
-              { value: '50+', label: 'Projects Built' },
-              { value: '30+', label: 'Mentors' },
-              { value: '12', label: 'Hackathons' },
-            ].map((stat, i) => (
-              <div
-                key={i}
-                className="text-center p-6 rounded-2xl bg-white/5 border border-white/10"
-              >
-                <span className="text-3xl md:text-4xl font-black bg-gradient-to-r from-fuchsia-400 to-violet-400 bg-clip-text text-transparent">
-                  {stat.value}
-                </span>
-                <p className="mt-1 text-slate-400 font-medium">{stat.label}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* How It Works */}
+      {/* Core Capabilities */}
       <section className="py-20 md:py-28">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="text-fuchsia-400 font-semibold text-sm uppercase tracking-wider">
-              Get Started
+              Technology Stack
             </span>
             <h2 className="mt-3 text-3xl md:text-4xl font-bold text-white">
-              How It Works
+              Core Capabilities
             </h2>
           </div>
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { step: '01', title: 'Register', desc: 'Sign up for our next hackathon—it\'s free!' },
-              { step: '02', title: 'Form a Team', desc: 'Solo or with friends, build something amazing.' },
-              { step: '03', title: 'Build & Learn', desc: '48 hours of coding, workshops, and mentorship.' },
-              { step: '04', title: 'Demo & Win', desc: 'Present your project and celebrate your wins.' },
-            ].map((item, i) => (
-              <div key={i} className="relative">
-                {i < 3 && (
-                  <div className="hidden md:block absolute top-12 left-full w-full h-0.5 bg-gradient-to-r from-fuchsia-500/50 to-transparent" />
-                )}
-                <div className="text-5xl font-black text-fuchsia-500/20">{item.step}</div>
-                <h3 className="mt-2 text-xl font-semibold text-white">{item.title}</h3>
-                <p className="mt-2 text-slate-400">{item.desc}</p>
+              'Voice-to-Text Processing',
+              'Large Language Model Integration (Claude Sonnet)',
+              'Intent-Based Workflow Automation',
+              'MCP Email Agent Integration',
+              'Scalable React + Vite Frontend',
+            ].map((capability, i) => (
+              <div
+                key={i}
+                className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-fuchsia-500/30 hover:bg-white/[0.07] transition-all duration-300"
+              >
+                <div className="text-3xl font-bold text-fuchsia-400 mb-3">{i + 1}.</div>
+                <h4 className="text-lg font-semibold text-white">{capability}</h4>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="py-20 md:py-28">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="p-12 md:p-16 rounded-3xl bg-gradient-to-br from-fuchsia-500/20 via-violet-500/10 to-transparent border border-fuchsia-500/30">
-            <h2 className="text-3xl md:text-4xl font-bold text-white">
-              Ready to Build Something Amazing?
+      {/* How It Works - Detailed */}
+      <section className="py-20 md:py-28 bg-white/[0.02]">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <span className="text-violet-400 font-semibold text-sm uppercase tracking-wider">
+              The Process
+            </span>
+            <h2 className="mt-3 text-3xl md:text-4xl font-bold text-white">
+              How It Works
             </h2>
-            <p className="mt-4 text-slate-400 text-lg">
-              Join our community and take the first step toward your tech journey.
+            <p className="mt-4 text-slate-400 max-w-2xl mx-auto">
+              Our voice-enabled assistant combines speech recognition, intent detection, and large language models to convert natural language into intelligent actions.
             </p>
-            <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <button className="px-8 py-4 rounded-xl font-semibold bg-gradient-to-r from-fuchsia-500 to-violet-600 text-white shadow-lg shadow-fuchsia-500/25 hover:shadow-fuchsia-500/40 hover:scale-105 transition-all duration-200">
-                Join the Next Hackathon
-              </button>
-              <button className="px-8 py-4 rounded-xl font-semibold border border-white/20 text-white hover:bg-white/10 transition-all duration-200">
-                Learn More
-              </button>
-            </div>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              { step: '01', title: 'Speech Input', desc: 'User speaks naturally through the interface.' },
+              { step: '02', title: 'Intent Understanding', desc: 'The system processes the request using LLM-powered reasoning.' },
+              { step: '03', title: 'Action Execution', desc: 'The assistant responds with answers or triggers workflows like sending emails.' },
+            ].map((item, i) => (
+              <div key={i} className="p-8 rounded-2xl bg-gradient-to-br from-fuchsia-500/10 to-violet-500/10 border border-white/10">
+                <div className="text-5xl font-black text-fuchsia-500/30 mb-4">{item.step}</div>
+                <h3 className="text-xl font-semibold text-white">{item.title}</h3>
+                <p className="mt-3 text-slate-400 leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
+ 
     </div>
   )
 }
