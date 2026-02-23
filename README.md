@@ -1,16 +1,79 @@
-# React + Vite
+# HackHers - Voice-Enabled AI Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern voice-enabled personal assistant that transforms natural speech into meaningful actions through speech recognition, intent detection, and large language models. The conversational agent flows are built with VoiceFlow.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Voice-to-Text Processing
+- Large Language Model Integration (Claude Sonnet)
+- Intent-Based Workflow Automation
+- Email Automation
+- Smart Conversations
+- Secure & Scalable Architecture
 
-## React Compiler
+## Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 18+ with Vite
+- Tailwind CSS
+- Claude Sonnet LLM
+- VoiceFlow for agent conversation flows
+- MCP Email Agent Integration
+- JavaScript ES6+
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js 16+
+- npm or yarn
+
+### Installation
+
+```
+npm install
+```
+
+### Development
+
+```
+npm run dev
+```
+
+Available at `http://localhost:5173`
+
+### Build
+
+```
+npm run build
+```
+
+## Pages
+
+- **Home**: Voice input interface
+- **About**: Project information and capabilities
+- **Contact**: Team member profiles
+
+## Learning Through This Project
+
+This project demonstrates several key concepts:
+
+- Building conversational AI interfaces with modern frontend frameworks
+- Integrating voice input with natural language processing
+- Using large language models (Claude Sonnet) for intelligent responses
+- Implementing intent-based automation workflows
+- Creating accessible and user-friendly AI applications
+- Designing responsive, modern UI with Tailwind CSS
+- Managing application state in React
+- Orchestrating AI agent flows using VoiceFlow
+
+## Team
+
+- Insha Khan
+- Madiha
+- Shubhi Shukla
+
+## License
+
+Educational and development purposes.
+
+
